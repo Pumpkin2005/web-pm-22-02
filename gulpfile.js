@@ -4,6 +4,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const cssnano = require('gulp-cssnano');
+const imagemin = require('gulp-imagemin');
 
 const html_task = () => src('app/*.html')
     .pipe(dest('dist'));
@@ -20,9 +21,20 @@ const scripts_task = () => src('app/js/*.js')
     .pipe(rename ({suffix: '.min'}))
     .pipe(dest('dist/js'));
 
+
+const images_task = () => src ('app/img/*.+(jpg|jpeg|gif|png)')
+    .pipe (imagemin({
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+        interlaced: true
+    }))
+    .pipe(dest('dist/img'));
+
+
+
 const watch_task = () => {
     watch('app/*.html', parallel(html_task));
     watch('app/scss/*.scss', parallel(scss_task));
     watch('app/js/*.js', parallel(scripts_task));
 }
-exports.default = series(html_task, scss_task, scripts_task, watch_task);
+exports.default = series(html_task, scss_task, scripts_task,images_task,watch_task);
