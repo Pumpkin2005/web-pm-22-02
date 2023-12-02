@@ -112,6 +112,7 @@
       }
     }
   }
+
   .header {
     top: 20px;
     height: 220px;
@@ -367,164 +368,949 @@
     }
 
   }
-  .center {
+
+  .center
+  {
     height: 500px;
-    width: 400px;
+    width: 450px;
     top: 220px;
-    //right: 1000px;
+    margin-left: 200px;
+    //display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    //left: 1000px;
     //position: fixed;
     //overflow-x: hidden;
     //overflow-y: scroll;
-
-  }
-}
-/*    .column1
+    .column1 a
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 90px;
+      top: 7px;
+    }
+    .column1 a1
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 80px;
+      top: 7px;
+    }
+    .column1 a2
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 70px;
+      top: 7px;
+    }
+    .column1 a3
+    {
+      color: #ff686c;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 100px;
+      top: 7px;
+      margin-bottom: 170px;
+    }
+    .column1
     {
       top: 46px;
-      right: -40px;
+      //right: -40px;
       border-radius: 20px;
       background-color: white;
-      width: 400px;
+      width: 450px;
       height: 230px;
-      position: relative;
+      display: flex;
+      align-items: flex-start;
+
+      .item
+      {
+        display: flex;
+      }
+      .i
+      {
+        display: flex;
+      }
       .canvas
       {
         width: 10px;
-        height:1% ;
+        height: 1%;
         position: relative;
         top: 15px;
       }
-
-      .total p {
-        font-size: 12px;
-        float: left;
-        color: black;
-        position: relative;
-        top: 15px;
-        left: 200px;
-
-        .total h4 {
-          font-size: 17px;
-          color: black;
-          position: relative;
-          top: 24px;
-          left: 220px;
-        }
-
-        .total svg {
-          position: relative;
-          top: 5px;
-          left: 2px;
-        }
-
-        .total h1 {
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          color: rgb(0, 0, 0);
-          width: 40px;
-          border-bottom: 1px solid rgb(0, 0, 0);
-          font-size: 12px;
-          color: black;
-          position: relative;
-          top: -20px;
-          left: 510px;
-
-        }
-      }
-
-      .column1 canvas {
+      .column1 canvas
+      {
         position: relative;
         top: 45px;
         zoom: 70%;
       }
+      .total p
+      {
+        color: black;
+        position: relative;
+        margin-bottom: 140px;
+        right: 280px;
+        top: 3px;
+      }
+      .total p1
+      {
+        font-size: 10px;
+        position: relative;
+        right: 60px;
 
-      .column1 a {
-        color: #6b6b6b;
-        font-size: 13px;
-        float: left;
-        left: 400px;
+      }
+      .total h4
+      {
+        font-size: 16px;
+        color: black;
         position: relative;
-        top: -375px;
+        right: 50px;
+        bottom: 2px;
+      }
+      .total svg
+      {
+        position: relative;
+        left: 2px;
+      }
+      .total h1
+      {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: black;
+        position: relative;
+        top: 2px;
+        right: 40px;
+      }
+      .bs p b
+      {
+        font-size: 12px;
+        color: black;
+      }
+    }
+
+    .column2
+    {
+      margin-top: 20px;
+      top: 46px;
+      border-radius: 20px;
+      background-color: white;
+      width: 450px;
+      height: 230px;
+      display: flex;
+      align-items: flex-start;
+
+      .column2 canvas
+      {
+        position: relative;
+        top: 105px;
+        zoom: 75%;
+        left: 300px;
+      }
+      .brown
+      {
+        position: relative;
+        top: 50px;
+        background: linear-gradient(to right, #d1b7a3, #a78d7a);
+        right: 390px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
       }
 
-      .column1 a1 {
+      .brown b
+      {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .pink b
+      {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .pink
+      {
+        position: relative;
+        top: 70px;
+        background: linear-gradient(to right, #fb7995, #ff186c);
+        right: 491px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .black {
+        position: relative;
+        top: 90px;
+        background: linear-gradient(to right, #494949, #000000);
+        right: 585px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .black b {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .purple {
+        position: relative;
+        top: 110px;
+        background: linear-gradient(to right, #cd97c8, #aa62ac);
+        right: 676px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .purple b {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .blue {
+        position: relative;
+        top: 130px;
+        background: linear-gradient(to right, #9de3fe, #009bfa);
+        right: 777px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .blue b {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .yellow {
+        position: relative;
+        top: 150px;
+        background: linear-gradient(to right, #ffefa9, #ffc000);
+        right: 871px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .yellow b {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .green {
+        position: relative;
+        top: 170px;
+        background: linear-gradient(to right, #79fcad, #00ba2e);
+        right: 967px;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+      }
+
+      .green b {
+        position: relative;
+        font-size: 10px;
+        left: 25px;
+        bottom: 9px;
+      }
+
+      .veh {
+        font-size: 9px;
+        position: relative;
+
+      }
+
+      .veh p {
+        font-family: Arial, Helvetica, sans-serif;
         color: #6b6b6b;
-        font-size: 13px;
-        float: left;
-        left: 430px;
         position: relative;
-        top: -375px;
+        top: 50px;
+        right: 350px;
       }
-      .column1 a2 {
+
+      .gro {
+        font-size: 9px;
+        position: relative;
+      }
+
+      .gro p {
+        font-family: Arial, Helvetica, sans-serif;
         color: #6b6b6b;
-        font-size: 13px;
-        float: left;
-        left: 460px;
         position: relative;
-        top: -375px;
+        top: 70px;
+        right: 451px;
       }
-      .column1 a3 {
-        width: 35px;
-        font-weight: bolder;
-        border-bottom: 1px solid #ff686c;
-        color: #ff686c;
-        font-size: 13px;
-        float: left;
-        left: 370px;
+
+      .clo {
+        font-size: 9px;
         position: relative;
-        top: -375px;
       }
+
+      .clo p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        position: relative;
+        top: 90px;
+        right: 544px;
+      }
+
+      .cir {
+        font-size: 9px;
+        position: relative;
+      }
+
+      .cir p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        position: relative;
+        top: 110px;
+        right: 635px;
+      }
+
+      .mob {
+        font-size: 9px;
+        position: relative;
+      }
+
+      .mob p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        position: relative;
+        top: 130px;
+        right: 736px;
+      }
+
+      .hom {
+        font-size: 9px;
+        position: relative;
+      }
+
+      .hom p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        position: relative;
+        top: 150px;
+        right: 829px;
+      }
+
+      .oth {
+        font-size: 9px;
+        position: relative;
+      }
+
+      .oth p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+        position: relative;
+        top: 170px;
+        right: 926px;
+      }
+    }
+    .column2 a
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 745px;
+      top: 7px;
+    }
+    .column2 a1
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 735px;
+      top: 7px;
+    }
+    .column2 a2
+    {
+      color: #6b6b6b;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 725px;
+      top: 7px;
+    }
+    .column2 a3
+    {
+      color: #ff686c;
+      font-size: 10px;
+      float: left;
+      position: relative;
+      right: 755px;
+      top: 7px;
+      margin-bottom: 170px;
+    }
+    .column2 p b
+    {
+      font-size: 12px;
+      color: black;
+      top: 3px;
+      position: relative;
+      margin-bottom: 140px;
+     left: 20px;
+    }
+
+    .column2 h4 {
+      font-size: 19px;
+      color: black;
+      position: relative;
+      top: 110px;
+     // left: 315px;
+      right: 850px;
+    }
+
+    .column2 svg {
+      position: relative;
+      //top: 3px;
+      bottom: 12px;
+      left: 23px;
+    }
+
+    .column2 h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      color: black;
+      position: relative;
+      top: 120px;
+      right: 840px;
+
+    }
+  }
+}
+.column3
+{
+  left: 690px;
+  top: -520px;
+  position: relative;
+  border-radius: 20px;
+  background-color: white;
+  width: 450px;
+  height: 500px;
+
+  .history b
+  {
+    font-size: 12px;
+    float: left;
+    right: 140px;
+    position: relative;
+    top: 4px;
+  }
+
+  .history a
+  {
+    color: #6b6b6b;
+    font-size: 9px;
+    float: left;
+    right: 40px;
+    position: relative;
+    top: 10px;
+  }
+  .history a1
+  {
+    color: #6b6b6b;
+    font-size: 9px;
+    float: left;
+    right: 30px;
+    position: relative;
+    top: 10px;
+  }
+
+  .history svg
+  {
+    position: relative;
+    top: 1px;
+    bottom: 1px;
+    left: 2px
+  }
+  .history p b
+  {
+    position: relative;
+    top: 7px;
+  }
+  .d31 h
+  {
+    font-size: 12px;
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: 35px;
+    right: 250px;
+    .coffee
+    {
+      position: relative;
+      top: 40px;
+    }
+    .coffee b
+    {
+      left: 20px;
+      color: #444444;
+      font-size: 11px;
+      top: 75px;
+     // margin-bottom: 500px;
+      position: relative;
+    }
+    .coffee img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: 80px;
+      right: -20px
+    }
+    .coffee h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -150px;
+      top: 75px;
+    }
+    .coffee a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -140px;
+      top: 75px;
+    }
+    .coffee h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -15px;
+    }
+    .coffee h3
+    {
+      position: relative;
+      left: 530px;
+      top: 25px;
+    }
+    .walmart
+    {
+      position: relative;
+      top: 40px;
+    }
+    .walmart h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -170px;
+      top: 0px;
+    }
+    .walmart b
+    {
+      left: 25px;
+      color: #444444;
+      font-size: 11px;
+      top: -20px;
+      position: relative;
+    }
+    .walmart a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -160px;
+      top: -1px;
+    }
+    .walmart h3
+    {
+      position: relative;
+      left: 120px;
+      top: -45px;
+    }
+    .walmart h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -85px;
+    }
+    .walmart img
+    {
+
+      position: relative;
+      top: 5px;
+      right: -20px;
+      width: 30px;
+      height: 30px;
+    }
+    .transfer
+    {
+      position: relative;
+      top:40px;
+    }
+    .transfer b
+    {
+      left: 25px;
+      color: #444444;
+      font-size: 11px;
+      top: -100px;
+      position: relative;
+    }
+    .transfer img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -70px;
+      right: -20px
+    }
+    .transfer h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: 75px;
+      top: -150px;
+    }
+    .transfer a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: 90px;
+      top: -150px;
+    }
+    .transfer h3
+    {
+      color: rgb(0, 208, 0);
+      position: relative;
+      left: 525px;
+      top: -195px;
+    }
+    .transfer h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -235px;
+    }
+    .transfer p a
+    {
+      position: relative;
+      left: 165px;
+      top: -135px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: deepskyblue;
+      width: 55px;
+      font-size: 90%;
+      border-bottom: 1px solid deepskyblue;
+      font-weight: normal;
+      padding-bottom: 0px;
+    }
+  }
+  .d29 h
+  {
+    font-size: 12px;
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: -150px;
+    right: -27px;
+    .zara
+    {
+      position: relative;
+      top:40px;
+    }
+    .zara b
+    {
+      left: 20px;
+      color: #444444;
+      font-size: 11px;
+      top: -180px;
+      position: relative;
+    }
+    .zara img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -155px;
+      right: -20px
+    }
+    .zara h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -85px;
+      top: -160px;
+    }
+    .zara a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -80px;
+      top: -160px;
+    }
+    .zara h3
+    {
+      position: relative;
+      left: 530px;
+      top: -210px;
+    }
+    .zara h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -250px;
+    }
+    .iterminal
+    {
+      position: relative;
+      top:45px;
+    }
+    .iterminal b
+    {
+      left: 30px;
+      color: #444444;
+      font-size: 11px;
+      top: -260px;
+      position: relative;
+    }
+    .iterminal img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -235px;
+      right: -22px
+    }
+    .iterminal h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -212px;
+      top: -240px;
+    }
+    .iterminal a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -205px;
+      top: -240px;
+    }
+    .iterminal h3
+    {
+      color: rgb(0, 208, 0);
+      position: relative;
+      left: 525px;
+      top: -285px;
+    }
+    .iterminal h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -326px;
+    }
+  }
+  .d24 h
+  {
+    font-size: 12px;
+    color: rgb(202, 202, 202);
+    position: relative;
+    top: -265px;
+    right: -27px;
+    .car
+    {
+      position: relative;
+      top: 40px;
+    }
+    .car b
+    {
+      left: 30px;
+      color: #444444;
+      font-size: 11px;
+      top: -300px;
+      position: relative;
+    }
+    .car img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -275px;
+      right: -22px
+    }
+    .car h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -188px;
+      top: -280px;
+    }
+    .car a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -180px;
+      top: -280px;
+    }
+    .car h3
+    {
+      position: relative;
+      left: 530px;
+      top: -325px;
+    }
+    .car h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -365px;
+    }
+    .phone
+    {
+      position: relative;
+      top: 40px;
+    }
+    .phone b
+    {
+      left: 30px;
+      color: #444444;
+      font-size: 11px;
+      top: -380px;
+      position: relative;
+    }
+    .phone img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -353px;
+      right: -22px
+    }
+    .phone h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -195px;
+      top: -360px;
+    }
+    .phone a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -180px;
+      top: -360px;
+    }
+    .phone h3
+    {
+      position: relative;
+      left: 530px;
+      top: -405px;
+    }
+    .phone h6
+    {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -445px;
+    }
+    .electric
+    {
+      position: relative;
+      top:40px ;
+    }
+    .electric b
+    {
+      left: 30px;
+      color: #444444;
+      font-size: 11px;
+      top: -450px;
+      position: relative;
+    }
+    .electric img
+    {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: -425px;
+      right: -22px
+    }
+    .electric h
+    {
+      color: #8d8c8c;
+      position: relative;
+      left: -185px;
+      top: -430px;
+    }
+    .electric a
+    {
+      font-size: 10px;
+      color: #8d8c8c;
+      position: relative;
+      left: -180px;
+      top: -430px;
+    }
+    .electric h3
+    {
+      position: relative;
+      left: 530px;
+      top: -478px;
+    }
+    .electric h6 {
+      color: #6b6b6b;
+      position: relative;
+      left: 580px;
+      top: -518px;
+    }
+  }
+}
+/*;
+        float: left;
+        le
+
+
+
+
+
+      }
+
+
+
+
+
+
+
+
 
       h2 {
         font-family: none;
       }
 
-      .bs p b {
 
-        font-size: 13px;
-        color: black;
-        position: relative;
-        top: -335px;
-        float: left;
-        left: -180px;
-      }
 
     }*/
-/*.column2 a {
-  color: #6b6b6b;
-  font-size: 13px;
-  float: left;
-  left:400px;
-  position: relative;
-  top: -595px;
-}
-.column2 a1 {
-  color: #6b6b6b;
-  font-size: 13px;
-  float: left;
-  left: 430px;
-  position: relative;
-  top: -595px;
-}
-.column2 a2 {
-  color: #6b6b6b;
-  font-size: 13px;
-  float: left;
-  left: 460px;
-  position: relative;
-  top: -595px;
-}
-.column2 a3 {
-
-  width: 35px;
-  font-weight:bolder;
-  border-bottom: 1px solid #ff686c;
-  color: #ff686c;
-  font-size: 13px;
-  float: left;
-  left: 370px;
-  position: relative;
-  top: -595px;
-}*/
+/**/
 /*
 * {
     box-sizing: border-box;
@@ -686,211 +1472,12 @@ li {
     padding: 0 15px;
 }
 
-.brown{
-    position: relative;
-    top:-135px;
-    background: linear-gradient(to right, #d1b7a3, #a78d7a);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.brown b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.pink b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.pink{
-    position: relative;
-    top:-155px;
-    background: linear-gradient(to right, #fb7995, #ff186c);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.black{
-    position: relative;
-    top:-175px;
-    background: linear-gradient(to right, #494949, #000000);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.black b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.purple{
-    position: relative;
-    top:-195px;
-    background: linear-gradient(to right, #cd97c8, #aa62ac);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.purple b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.blue{
-    position: relative;
-    top:-215px;
-    background: linear-gradient(to right, #9de3fe, #009bfa);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.blue b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.yellow{
-    position: relative;
-    top:-235px;
-    background: linear-gradient(to right, #ffefa9, #ffc000);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.yellow b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.green{
-    position: relative;
-    top:-255px;
-    background: linear-gradient(to right, #79fcad, #00ba2e);
-    left:20px;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-}
-.green b{
-    position: relative;
-    font-size: 12px;
-    left:25px;
-    top:-4px;
-}
-.veh{
-    font-size: 13px;
-    position: relative;
-}
-.veh p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-160px;
-    left: 90px;
-
-}
-.gro{
-    font-size: 13px;
-    position: relative;
-}
-.gro p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-181px;
-    left: 90px;
-
-}
-.clo{
-    font-size: 13px;
-    position: relative;
-}
-.clo p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-201px;
-    left: 90px;
-
-}
-.cir{
-    font-size: 13px;
-    position: relative;
-}
-.cir p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-221px;
-    left: 90px;
-
-}
-.mob{
-    font-size: 13px;
-    position: relative;
-}
-.mob p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-241px;
-    left: 90px;
-
-}
-.hom{
-    font-size: 13px;
-    position: relative;
-}
-.hom p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-261px;
-    left: 90px;
-
-}
-.oth{
-    font-size: 13px;
-    position: relative;
-}
-.oth p{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6b6b6b;
-    position: relative;
-    top:-281px;
-    left: 90px;
-
-}
 
 
-.column2 canvas{
-    position: relative;
-    top: 105px;
-    zoom: 75%;
-    left:300px;
 
-}
+
+
+
 
 body {
     overflow: hidden;
@@ -900,551 +1487,14 @@ body {
     font-family: Arial, sans-serif;
 
 }
-.column2 p b{
-
-    font-size: 13px;
-    color: black;
-    position: relative;
-    top:25px;
-    float: left;
-    left:-110px;
-}
-
-
-.column2 h4 {
-    font-size: 19px;
-    color: black;
-    position: relative;
-    top: -435px;
-    left: 315px;
-
-
-}
-
-.column2 svg {
-    position: relative;
-    top: 5px;
-    left: 2px;
-}
-
-.column2 h1 {
 
 
 
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    width: 40px;
 
-    !* Розмір шрифту *!
-    border-bottom: 1px solid rgb(0, 0, 0);
-    !* Параметри лінії під текстом *!
-
-    !* Прибираємо жирне накреслення *!
-
-    !* Відстань від тексту до лінії *!
-    font-size: 12px;
-    color: black;
-    position: relative;
-    top: -480px;
-    left:514px;
-
-}
-
-
-.column2 {
-    top: 70px;
-    right: -40px;
-    position: relative;
-    border-radius: 20px;
-    background-color: white;
-    width: 620px;
-    height: 385px;
-
-
-}
-
-
-
-.column3 {
-
-    left: 700px;
-    top: -755px;
-    position: relative;
-    border-radius: 20px;
-    background-color: white;
-    width: 620px;
-    height: 810px;
-}
 
 b {
     font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
-.d31 h {
-    font-size: 12px;
-    color: rgb(202, 202, 202);
-    position: relative;
-    top: 85px;
-    right: -20px;
-}
-
-.coffee {
-    position: relative;
-    top: 40px;
-}
-
-.walmart {
-
-    position: relative;
-    top: 40px;
-}
-.transfer{
-    position: relative;
-    top:40px;
-}
-
-.d29 h {
-    font-size: 12px;
-    color: rgb(202, 202, 202);
-    position: relative;
-    top: -150px;
-    right: -27px;
-}
-.zara{
-    position: relative;
-    top:40px;
-}
-.iterminal{
-    position: relative;
-    top:45px;
-}
-.d24 h {
-    font-size: 12px;
-    color: rgb(202, 202, 202);
-    position: relative;
-    top: -265px;
-    right: -27px;
-}
-.car{
-    position: relative;
-    top: 40px;
-}
-.phone{
-    position: relative;
-    top: 40px;
-}
-.electric{
-    position: relative;
-    top:40px ;
-}
-
-.coffee b {
-    left: 20px;
-    color: #444444;
-    font-size: 11px;
-    ;
-    top: 55px;
-    position: relative;
-}
-
-.walmart b {
-    left: 25px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -20px;
-    position: relative;
-}
-
-.transfer b {
-    left: 25px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -100px;
-    position: relative;
-}
-
-.zara b {
-    left: 20px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -180px;
-    position: relative;
-}
-
-.iterminal b {
-    left: 30px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -260px;
-    position: relative;
-}
-
-.car b {
-    left: 30px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -300px;
-    position: relative;
-}
-
-.phone b {
-    left: 30px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -380px;
-    position: relative;
-}
-
-.electric b {
-    left: 30px;
-    color: #444444;
-    font-size: 11px;
-
-    top: -450px;
-    position: relative;
-}
-
-.coffee img {
-    width: 7%;
-    height: 7%;
-    position: relative;
-    top: 80px;
-    right: -20px
-}
-
-.zara img {
-    width: 7%;
-    height: 7%;
-    position: relative;
-    top: -155px;
-    right: -20px
-}
-
-.transfer img {
-    width: 6%;
-    height: 6%;
-    position: relative;
-    top: -70px;
-    right: -20px
-}
-
-.iterminal img {
-    width: 6%;
-    height: 6%;
-    position: relative;
-    top: -235px;
-    right: -22px
-}
-
-.car img {
-    width: 6%;
-    height: 6%;
-    position: relative;
-    top: -275px;
-    right: -22px
-}
-
-.phone img {
-    width: 6%;
-    height: 6%;
-    position: relative;
-    top: -353px;
-    right: -22px
-}
-
-.electric img {
-    width: 6%;
-    height: 6%;
-    position: relative;
-    top: -425px;
-    right: -22px
-}
-
-.coffee h {
-    color: #8d8c8c;
-    position: relative;
-    left: -150px;
-    top: 75px;
-}
-
-.walmart h {
-    color: #8d8c8c;
-    position: relative;
-    left: -170px;
-    top: 0px;
-}
-
-.transfer h {
-    color: #8d8c8c;
-    position: relative;
-    left: 75px;
-    top: -150px;
-}
-
-.zara h {
-    color: #8d8c8c;
-    position: relative;
-    left: -85px;
-    top: -160px;
-}
-
-.iterminal h {
-    color: #8d8c8c;
-    position: relative;
-    left: -212px;
-    top: -240px;
-}
-
-.car h {
-    color: #8d8c8c;
-    position: relative;
-    left: -188px;
-    top: -280px;
-}
-
-.phone h {
-    color: #8d8c8c;
-    position: relative;
-    left: -195px;
-    top: -360px;
-}
-
-.electric h {
-    color: #8d8c8c;
-    position: relative;
-    left: -185px;
-    top: -430px;
-}
-
-.coffee a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -140px;
-    top: 75px;
-}
-
-.walmart a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -160px;
-    top: -1px;
-}
-
-.transfer a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: 90px;
-    top: -150px;
-}
-
-.zara a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -80px;
-    top: -160px;
-}
-
-.iterminal a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -205px;
-    top: -240px;
-}
-
-.car a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -180px;
-    top: -280px;
-}
-
-.phone a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -180px;
-    top: -360px;
-}
-
-.electric a {
-
-    font-size: 10px;
-    color: #8d8c8c;
-    position: relative;
-    left: -180px;
-    top: -430px;
-}
-
-.coffee h3 {
-    position: relative;
-    left: 530px;
-    top: 25px;
-}
-
-.coffee h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -15px;
-}
-
-.walmart h3 {
-    position: relative;
-    left: 120px;
-    top: -45px;
-}
-
-.walmart h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -85px;
-}
-
-.transfer h3 {
-    color: rgb(0, 208, 0);
-    position: relative;
-    left: 525px;
-    top: -195px;
-}
-
-.transfer h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -235px;
-}
-
-.zara h3 {
-
-    position: relative;
-    left: 530px;
-    top: -210px;
-}
-
-.zara h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -250px;
-}
-
-.iterminal h3 {
-    color: rgb(0, 208, 0);
-    position: relative;
-    left: 525px;
-    top: -285px;
-}
-
-.iterminal h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -326px;
-}
-
-.car h3 {
-
-    position: relative;
-    left: 530px;
-    top: -325px;
-}
-
-.car h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -365px;
-}
-
-.phone h3 {
-
-    position: relative;
-    left: 530px;
-    top: -405px;
-}
-
-.phone h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -445px;
-}
-
-.electric h3 {
-
-    position: relative;
-    left: 530px;
-    top: -478px;
-}
-
-.electric h6 {
-    color: #6b6b6b;
-    position: relative;
-    left: 580px;
-    top: -518px;
-}
-
-.history b {
-    font-size: 13px;
-    float: left;
-    left: 25px;
-    position: relative;
-    top: 19px;
-}
-
-.history a {
-    color: #6b6b6b;
-    font-size: 11px;
-    float: left;
-    left: 140px;
-    position: relative;
-    top: -205px;
-}
-
-a1 {
-    font-size: 11px;
-}
-
-.history a1 {
-    color: #6b6b6b;
-    font-size: 11px;
-    float: left;
-    left: 170px;
-    position: relative;
-    top: -205px;
-}
-
-.history svg {
-    position: relative;
-    top: 5px;
-    left: 5px
-}
-.history p b{
-    position: relative;
-    top:-205px;
-    left:-110px;
-}
 .hr {
     position: relative;
     top: 50px;
@@ -1452,256 +1502,6 @@ a1 {
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.532), rgba(158, 158, 158, 0.75), rgba(0, 0, 0, 0));
 }
-
-.walmart img {
-
-    position: relative;
-    top: 5px;
-    right: -20px;
-    width: 6%;
-    height: 10%;
-}
-
-.transfer p a {
-    position: relative;
-    left: 165px;
-    top: -135px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: deepskyblue;
-    width: 55px;
-    font-size: 90%;
-    !* Розмір шрифту *!
-    border-bottom: 1px solid deepskyblue;
-    !* Параметри лінії під текстом *!
-    font-weight: normal;
-    !* Прибираємо жирне накреслення *!
-    padding-bottom: 0px;
-    !* Відстань від тексту до лінії *!
-}
-
-
-
-
-
-
-
-
-p {
-
-    font-family: "Courier New", monospace;
-
-}
-
-.card1 p {
-    font-size: 25px;
-    color: aliceblue;
-    right: 160px;
-    top: -10px;
-    position: relative;
-    float: right;
-}
-
-svg {
-    color: rgb(172, 175, 176);
-}
-
-.card1 svg {
-    position: relative;
-    right: -250px;
-    top: 15px;
-}
-
-p1 {
-    color: rgb(172, 175, 176);
-}
-
-.card1 p1 {
-    font-size: 15px;
-
-    right: 5px;
-    top: 22px;
-    position: relative;
-    float: right
-}
-
-.card2 p {
-    font-size: 25px;
-    color: aliceblue;
-    right: 170px;
-    top: -10px;
-    position: relative;
-    float: right;
-}
-
-.card2 p1 {
-    font-size: 15px;
-    color: rgb(172, 175, 176);
-    right: 30px;
-    top: 22px;
-    position: relative;
-    float: right;
-}
-
-.card2 svg {
-    position: relative;
-    right: -250px;
-    top: 15px;
-
-}
-
-img {
-    color: none;
-}
-
-.card1 img {
-    position: relative;
-    width: 18%;
-    height: 27%;
-    float: right;
-    right: -190px;
-    top: 20px;
-}
-
-.ncard1 p {
-    font-size: 19px;
-    color: grey;
-    right: 47px;
-    top: -25px;
-    position: relative;
-    float: right;
-}
-
-.ncard1 p1 {
-    color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
-    right: 12px;
-    top: 45px;
-}
-
-.ncard2 p {
-    font-size: 19px;
-    color: grey;
-    right: 47px;
-    top: -25px;
-    position: relative;
-    float: right;
-}
-
-.ncard2 p1 {
-    color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
-    right: 12px;
-    top: 45px;
-}
-
-.card2 img {
-    width: 15%;
-    height: 12%;
-    top: 100px;
-    position: relative;
-    right: -225px;
-}
-
-.card3 p {
-    font-size: 25px;
-    color: aliceblue;
-    right: 190px;
-    top: -10px;
-    position: relative;
-    float: right;
-}
-
-.card3 p1 {
-    font-size: 15px;
-    color: rgb(172, 175, 176);
-    right: 60px;
-    top: 22px;
-    position: relative;
-    float: right;
-}
-
-.card3 img {
-    width: 25%;
-    height: 12%;
-    top: 99px;
-    position: relative;
-    right: -200px;
-}
-
-.ncard3 p {
-    font-size: 19px;
-    color: grey;
-    right: 47px;
-    top: -26px;
-    position: relative;
-    float: right;
-}
-
-.ncard3 p1 {
-    color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
-    right: 12px;
-    top: 45px;
-}
-
-.card3 svg {
-    position: relative;
-    right: -250px;
-    top: 15px;
-}
-
-.card4 p {
-    font-size: 23px;
-    color: aliceblue;
-    right: 150px;
-    top: -6px;
-    position: relative;
-    float: right;
-}
-
-.card4 p1 {
-    font-size: 15px;
-    color: rgb(172, 175, 176);
-    right: -10px;
-    top: 22px;
-    position: relative;
-    float: right;
-}
-
-.card4 svg {
-    position: relative;
-    right: -250px;
-    top: 18px;
-}
-
-.ncard4 p {
-    font-size: 19px;
-    color: grey;
-    right: 47px;
-    top: -20px;
-    position: relative;
-    float: right;
-}
-
-.ncard4 p1 {
-    color: grey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
-    right: 10px;
-    top: 52px;
-}
-
-.card4 img {
-    width: 25%;
-    height: 18%;
-    top: 97px;
-    position: relative;
-    right: -200px;
-}
-
 .history p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
@@ -1748,489 +1548,5 @@ img {
     top:-160px;
     font-size: 10px;
 }
-    .total h4 {
-        font-size: 14px;
-        color: black;
-        position: relative;
-        top: 3px;
-        left: 190px;
-
-
-    }
-
-    .total h1 {
-
-
-        font-size: 9px;
-        color: black;
-        position: relative;
-        top: -35px;
-        left: 400px;
-        width: 30px;
-
-    }
-
-    .column2 {
-        top: 35px;
-        width: 450px;
-        height: 213px;
-    }
-
-    .column3 {
-
-        top: -435px;
-        left: 520px;
-        width: 450px;
-        height: 460px;
-
-
-    }
-
-    .hr {
-        top: 9px;
-    }
-
-    .history b {
-        color: #000000;
-        font-size: 10px;
-        float: none;
-        left: 20px;
-        position: none;
-        top: -38px;
-    }
-
-    .history a {
-        color: #6b6b6b;
-        font-size: 8px;
-        float: none;
-        left: 290px;
-        position:none;
-        top: -7px;
-    }
-
-    .history a1 {
-        color: #6b6b6b;
-        font-size: 8px;
-        float: none;
-        left: 305px;
-        position: relative;
-        top: -7px;
-    }
-
-    .d31 h {
-        top: 15px;
-        font-size: 10px;
-        left: 25px;
-    }
-
-    .d29 h {
-        top: -215px;
-        font-size: 10px;
-        left: 25px;
-    }
-
-    .d24 h {
-        top: -320px;
-        font-size: 10px;
-        left: 25px;
-    }
-
-    .coffee img {
-        top: 35px;
-        width: 5%;
-        height: 5%;
-    }
-
-    .transfer img {
-        top: -75px;
-        width: 5%;
-        height: 5%;
-    }
-
-    .zara img {
-        top: -180px;
-        width: 5%;
-        height: 5%;
-    }
-
-    .iterminal img {
-        top: -240px;
-        width: 5%;
-        height: 5%;
-        left: 20px;
-    }
-
-    .car img {
-        top: -290px;
-        width: 5%;
-        height: 5%;
-    }
-
-    .phone img {
-        top: -355px;
-        width: 5%;
-        height: 5%;
-    }
-
-    .electric img {
-        top: -410px;
-        width: 5%;
-        height: 5%;
-    }
-
-.coffee{
-    top: -5px;
-}
-.walmart{
-    top:-5px;
-}
-.transfer{
-    top: -5px;
-}
-.zara{
-    top:-20px;
-}
-.iterminal{
-    top: -20px;
-}
-.car{
-    top: -15px;
-}
-.phone{
-    top: -15px;
-}
-.electric{
-    top: -20px;
-}
-    .coffee b {
-        font-size: 8px;
-        top: 25px;
-    }
-
-    .walmart b {
-        left: 20px;
-        color: #444444;
-        font-size: 8px;
-
-        top: -30px;
-
-    }
-
-    .transfer b {
-        left: 20px;
-        color: #444444;
-        font-size: 8px;
-
-        top: -90px;
-
-    }
-
-    .zara b {
-        left: 20px;
-        color: #444444;
-        font-size: 8px;
-
-        top: -190px;
-
-    }
-
-    .iterminal b {
-        left: 20px;
-        color: #444444;
-        font-size: 8px;
-
-        top: -250px;
-
-    }
-
-    .car b {
-        left: 25px;
-        color: #444444;
-        font-size: 8px;
-
-        top: -300px;
-
-    }
-
-    .phone b {
-        left: 25px;
-        color: #444444;
-        font-size: 8px;
-        top: -365px;
-    }
-
-    .electric b {
-        left: 25px;
-        color: #444444;
-        font-size: 8px;
-        top: -420px;
-    }
-
-    .transfer p a {
-        position: relative;
-        top: -124px;
-        left: 115px;
-        font-size: 8px;
-        width: 30px;
-    }
-
-    .coffee h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -100px;
-        top: 35px;
-    }
-
-    .walmart h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -120px;
-        top: -19px;
-    }
-
-    .transfer h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: 50px;
-        top: -148px;
-    }
-
-    .zara h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -58px;
-        top: -180px;
-    }
-
-    .iterminal h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -155px;
-        top: -240px;
-    }
-
-    .car h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -135px;
-        top: -289px;
-    }
-
-    .phone h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -140px;
-        top: -355px;
-    }
-
-    .electric h {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -135px;
-        top: -410px;
-    }
-
-
-    .coffee a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -90px;
-        top: 35px;
-        ;
-    }
-
-    .walmart a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -110px;
-        top: -19px;
-        ;
-    }
-
-    .transfer a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: 55px;
-        top: -148px;
-        ;
-    }
-
-    .zara a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -55px;
-        top: -180px;
-    }
-
-    .iterminal a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -145px;
-        top: -240px;
-    }
-
-    .car a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -125px;
-        top: -289px;
-    }
-
-    .phone a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -125px;
-        top: -355px;
-    }
-
-    .electric a {
-        font-size: 7px;
-        color: #8d8c8c;
-        position: relative;
-        left: -125px;
-        top: -410px;
-    }
-
-    .coffee h3 {
-        font-size: 12px;
-        position: relative;
-        left: 370px;
-        top: 2px;
-    }
-
-    .coffee h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -26px;
-    }
-
-    .walmart h3 {
-        font-size: 12px;
-        position: relative;
-        left: 377px;
-        top: -50px;
-    }
-
-    .walmart h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -78px;
-    }
-
-    .transfer h3 {
-        font-size: 12px;
-        position: relative;
-        left: 367px;
-        top: -180px;
-    }
-
-    .transfer h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -208px;
-    }
-
-    .zara h3 {
-        font-size: 12px;
-        position: relative;
-        left: 367px;
-        top: -210px;
-    }
-
-    .zara h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -239px;
-    }
-
-    .iterminal h3 {
-        font-size: 12px;
-        position: relative;
-        left: 365px;
-        top: -270px;
-    }
-
-    .iterminal h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -299px;
-    }
-
-    .car h3 {
-        font-size: 12px;
-        position: relative;
-        left: 370px;
-        top: -318px;
-    }
-
-    .car h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -347px;
-    }
-
-    .phone h3 {
-        font-size: 12px;
-        position: relative;
-        left: 370px;
-        top: -380px;
-    }
-
-    .phone h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -408px;
-    }
-
-    .electric h3 {
-        font-size: 12px;
-        position: relative;
-        left: 370px;
-        top: -439px;
-    }
-
-    .electric h6 {
-        font-size: 8px;
-        color: #6b6b6b;
-        position: relative;
-        left: 400px;
-        top: -467px;
-    }
-
-    .walmart img {
-        top: -17px;
-        width: 5%;
-        height: 5%;
-    }
-
 
 */
