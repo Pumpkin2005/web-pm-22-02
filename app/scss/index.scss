@@ -811,7 +811,184 @@
   background-color: white;
   width: 450px;
   height: 500px;
+  .coffee b
+  {
+    right: 150px;
+    color: #444444;
+    font-size: 9px;
+    top: 10px;
+    position: relative;
+  }
+  .coffee h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    right: 125px;
+    top: 5px;
+  }
+  .coffee
+  {
+    position: relative;
+    top: 40px;
+  }
 
+  .coffee img
+  {
+    position: relative;
+    top: 13px;
+    right: 150px;
+  }
+
+  .coffee a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    right: 40px;
+    bottom: 23px;
+  }
+  .coffee h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 242px;
+    bottom: 66px;
+
+  }
+  .coffee h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 210px;
+    bottom: 45px;
+  }
+  .walmart
+  {
+    position: relative;
+    top: 40px;
+  }
+  .walmart h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    left: 43px;
+    bottom: 70px;
+  }
+  .walmart b
+  {
+    color: #444444;
+    font-size: 9px;
+    right: 146px;
+    bottom: 65px;
+    position: relative;
+  }
+  .walmart a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    left: 120px;
+    bottom: 98px;
+  }
+  .walmart h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 375px;
+    bottom: 120px;
+  }
+  .walmart h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 400px;
+    bottom: 142px;
+  }
+  .walmart img
+  {
+
+    position: relative;
+    //top: 5px;
+    right: 150px;
+    bottom: 60px;
+  }
+  .transfer
+  {
+    position: relative;
+    top:40px;
+  }
+  .transfer b
+  {
+    left: 20px;
+    color: #444444;
+    font-size: 9px;
+    bottom: 139px;
+    position: relative;
+  }
+  .transfer img
+  {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 135px;
+    right: -15px
+  }
+  .transfer h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    left: 45px;
+    bottom: 185px;
+  }
+  .transfer a
+  {
+    font-size: 9px;
+    color: #8d8c8c;
+    position: relative;
+    left: 100px;
+    bottom: 213px;
+  }
+  .transfer h3
+  {
+    color: rgb(0, 208, 0);
+    position: relative;
+    font-size: 13px;
+    left: 370px;
+    bottom: 230px;
+  }
+  .transfer h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 404px;
+    bottom: 251px;
+  }
+  .transfer p a
+  {
+    position: relative;
+    left: 106px;
+    top: -165px;
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: deepskyblue;
+    width: 55px;
+    border-bottom: 1px solid deepskyblue;
+    font-weight: normal;
+  }
+    .d31 h
+    {
+      font-size: 12px;
+      color: rgb(202, 202, 202);
+      position: relative;
+      top: 35px;
+      right: 249px;
+    }
   .history b
   {
     font-size: 12px;
@@ -826,7 +1003,7 @@
     color: #6b6b6b;
     font-size: 9px;
     float: left;
-    right: 40px;
+    left: 10px;
     position: relative;
     top: 10px;
   }
@@ -835,7 +1012,7 @@
     color: #6b6b6b;
     font-size: 9px;
     float: left;
-    right: 30px;
+    left: 30px;
     position: relative;
     top: 10px;
   }
@@ -852,437 +1029,276 @@
     position: relative;
     top: 7px;
   }
-  .d31 h
-  {
-    font-size: 12px;
-    color: rgb(202, 202, 202);
-    position: relative;
-    top: 35px;
-    right: 250px;
-    .coffee
-    {
-      position: relative;
-      top: 40px;
-    }
-    .coffee b
-    {
-      left: 20px;
-      color: #444444;
-      font-size: 11px;
-      top: 75px;
-     // margin-bottom: 500px;
-      position: relative;
-    }
-    .coffee img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: 80px;
-      right: -20px
-    }
-    .coffee h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -150px;
-      top: 75px;
-    }
-    .coffee a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -140px;
-      top: 75px;
-    }
-    .coffee h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -15px;
-    }
-    .coffee h3
-    {
-      position: relative;
-      left: 530px;
-      top: 25px;
-    }
-    .walmart
-    {
-      position: relative;
-      top: 40px;
-    }
-    .walmart h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -170px;
-      top: 0px;
-    }
-    .walmart b
-    {
-      left: 25px;
-      color: #444444;
-      font-size: 11px;
-      top: -20px;
-      position: relative;
-    }
-    .walmart a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -160px;
-      top: -1px;
-    }
-    .walmart h3
-    {
-      position: relative;
-      left: 120px;
-      top: -45px;
-    }
-    .walmart h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -85px;
-    }
-    .walmart img
-    {
-
-      position: relative;
-      top: 5px;
-      right: -20px;
-      width: 30px;
-      height: 30px;
-    }
-    .transfer
-    {
-      position: relative;
-      top:40px;
-    }
-    .transfer b
-    {
-      left: 25px;
-      color: #444444;
-      font-size: 11px;
-      top: -100px;
-      position: relative;
-    }
-    .transfer img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -70px;
-      right: -20px
-    }
-    .transfer h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: 75px;
-      top: -150px;
-    }
-    .transfer a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: 90px;
-      top: -150px;
-    }
-    .transfer h3
-    {
-      color: rgb(0, 208, 0);
-      position: relative;
-      left: 525px;
-      top: -195px;
-    }
-    .transfer h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -235px;
-    }
-    .transfer p a
-    {
-      position: relative;
-      left: 165px;
-      top: -135px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: deepskyblue;
-      width: 55px;
-      font-size: 90%;
-      border-bottom: 1px solid deepskyblue;
-      font-weight: normal;
-      padding-bottom: 0px;
-    }
-  }
   .d29 h
   {
     font-size: 12px;
     color: rgb(202, 202, 202);
     position: relative;
-    top: -150px;
-    right: -27px;
-    .zara
-    {
-      position: relative;
-      top:40px;
-    }
-    .zara b
-    {
-      left: 20px;
-      color: #444444;
-      font-size: 11px;
-      top: -180px;
-      position: relative;
-    }
-    .zara img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -155px;
-      right: -20px
-    }
-    .zara h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -85px;
-      top: -160px;
-    }
-    .zara a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -80px;
-      top: -160px;
-    }
-    .zara h3
-    {
-      position: relative;
-      left: 530px;
-      top: -210px;
-    }
-    .zara h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -250px;
-    }
-    .iterminal
-    {
-      position: relative;
-      top:45px;
-    }
-    .iterminal b
-    {
-      left: 30px;
-      color: #444444;
-      font-size: 11px;
-      top: -260px;
-      position: relative;
-    }
-    .iterminal img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -235px;
-      right: -22px
-    }
-    .iterminal h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -212px;
-      top: -240px;
-    }
-    .iterminal a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -205px;
-      top: -240px;
-    }
-    .iterminal h3
-    {
-      color: rgb(0, 208, 0);
-      position: relative;
-      left: 525px;
-      top: -285px;
-    }
-    .iterminal h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -326px;
-    }
+    bottom: 200px;
+    right: -22px;
+  }
+  .zara
+  {
+    position: relative;
+    top:40px;
+  }
+  .zara b
+  {
+    left: 18px;
+    color: #444444;
+    font-size: 9px;
+    bottom: 232px;
+    position: relative;
+  }
+  .zara img
+  {
+    position: relative;
+    bottom: 230px;
+    right: -14px
+  }
+  .zara h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    bottom: 238px;
+    left: 45px;
+  }
+  .zara a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    bottom: 266px;
+    left: 113px;
+  }
+  .zara h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 375px;
+    bottom: 290px;
+  }
+  .zara h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 407px;
+    bottom: 310px;
+  }
+  .iterminal
+  {
+    position: relative;
+    top:45px;
+  }
+  .iterminal b
+  {
+    left: 22px;
+    color: #444444;
+    font-size: 9px;
+    top: -315px;
+    position: relative;
+  }
+  .iterminal img
+  {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 310px;
+    left: 16px;
+  }
+  .iterminal h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    bottom: 320px;
+    left: 45px;
+  }
+  .iterminal a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    bottom: 349px;
+    left: 98px;
+  }
+  .iterminal h3
+  {
+    color: rgb(0, 208, 0);
+    position: relative;
+    font-size: 13px;
+    left: 370px;
+    bottom: 370px;
+  }
+  .iterminal h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 403px;
+    bottom: 391px;
   }
   .d24 h
   {
     font-size: 12px;
     color: rgb(202, 202, 202);
     position: relative;
-    top: -265px;
-    right: -27px;
-    .car
-    {
-      position: relative;
-      top: 40px;
-    }
-    .car b
-    {
-      left: 30px;
-      color: #444444;
-      font-size: 11px;
-      top: -300px;
-      position: relative;
-    }
-    .car img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -275px;
-      right: -22px
-    }
-    .car h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -188px;
-      top: -280px;
-    }
-    .car a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -180px;
-      top: -280px;
-    }
-    .car h3
-    {
-      position: relative;
-      left: 530px;
-      top: -325px;
-    }
-    .car h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -365px;
-    }
-    .phone
-    {
-      position: relative;
-      top: 40px;
-    }
-    .phone b
-    {
-      left: 30px;
-      color: #444444;
-      font-size: 11px;
-      top: -380px;
-      position: relative;
-    }
-    .phone img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -353px;
-      right: -22px
-    }
-    .phone h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -195px;
-      top: -360px;
-    }
-    .phone a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -180px;
-      top: -360px;
-    }
-    .phone h3
-    {
-      position: relative;
-      left: 530px;
-      top: -405px;
-    }
-    .phone h6
-    {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -445px;
-    }
-    .electric
-    {
-      position: relative;
-      top:40px ;
-    }
-    .electric b
-    {
-      left: 30px;
-      color: #444444;
-      font-size: 11px;
-      top: -450px;
-      position: relative;
-    }
-    .electric img
-    {
-      width: 30px;
-      height: 30px;
-      position: relative;
-      top: -425px;
-      right: -22px
-    }
-    .electric h
-    {
-      color: #8d8c8c;
-      position: relative;
-      left: -185px;
-      top: -430px;
-    }
-    .electric a
-    {
-      font-size: 10px;
-      color: #8d8c8c;
-      position: relative;
-      left: -180px;
-      top: -430px;
-    }
-    .electric h3
-    {
-      position: relative;
-      left: 530px;
-      top: -478px;
-    }
-    .electric h6 {
-      color: #6b6b6b;
-      position: relative;
-      left: 580px;
-      top: -518px;
-    }
+    bottom: 330px;
+    left: 23px;
+  }
+  .car
+  {
+    position: relative;
+    top: 40px;
+  }
+  .car b
+  {
+    left: 20px;
+    color: #444444;
+    font-size: 9px;
+    bottom: 365px;
+    position: relative;
+  }
+  .car img
+  {
+    position: relative;
+    bottom: 360px;
+    left: 17px;
+  }
+  .car h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    bottom: 372px;
+    left: 45px;
+  }
+  .car a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    bottom: 400px;
+    left: 127px;
+  }
+  .car h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 375px;
+    bottom: 420px;
+  }
+  .car h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 406px;
+    bottom: 441px;
+  }
+  .phone
+  {
+    position: relative;
+    top: 40px;
+  }
+  .phone b
+  {
+    left: 20px;
+    color: #444444;
+    font-size: 9px;
+    bottom: 445px;
+    position: relative;
+  }
+  .phone img
+  {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 440px;
+    left: 17px;
+  }
+  .phone h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    bottom: 450px;
+    left: 42px;
+  }
+  .phone a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    bottom: 478px;
+    left: 120px;
+  }
+  .phone h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 375px;
+    bottom: 500px;
+  }
+  .phone h6
+  {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 404px;
+    bottom: 521px;
+  }
+  .electric
+  {
+    position: relative;
+    top:40px ;
+  }
+  .electric b
+  {
+    left: 20px;
+    color: #444444;
+    font-size: 9px;
+    bottom: 525px;
+
+    position: relative;
+  }
+  .electric img
+  {
+    position: relative;
+    bottom: 520px;
+    left: 17px;
+  }
+  .electric h1
+  {
+    color: #8d8c8c;
+    position: relative;
+    font-size: 9px;
+    left: 43px;
+    bottom: 532px;
+  }
+  .electric a
+  {
+    font-size: 7px;
+    color: #8d8c8c;
+    position: relative;
+    left: 125px;
+    bottom: 560px;
+  }
+  .electric h3
+  {
+    position: relative;
+    font-size: 13px;
+    left: 375px;
+    bottom: 585px;
+  }
+  .electric h6 {
+    color: #6b6b6b;
+    position: relative;
+    font-size: 10px;
+    left: 406px;
+    bottom: 606px;
   }
 }
 /*;
