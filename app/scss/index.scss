@@ -39,7 +39,9 @@
   .header__c a
   {
     color: #f2f2f2;
-    left: 150px
+    left: 150px;
+    position: relative;
+    bottom: 20px;
   }
   .hello
   {
@@ -50,6 +52,8 @@
   .hello a
   {
     font-size: 10px;
+    position: relative;
+    bottom: 5px;
     color: #6b6b6b;
   }
 }
@@ -64,7 +68,6 @@
 }
 .root-wrapper {
   height: 900px;
-  //display: flex;
   background-color: #f3f3f3;
 
   .sidebar-menu {
@@ -204,23 +207,26 @@
 
     .ncard1 p {
       font-size: 13px;
-      padding-left: 20px;
-      right: 23px;
+      position: relative;
+      top: -10px;
+      left: 1px;
       color: #8d8c8c;
     }
 
     .ncard1 p1 {
       font-size: 10px;
-      padding-left: 20px;
-      margin-top: 10px;
       color: #8d8c8c;
+      position: relative;
+      left: 6px;
+      top: -20px;
     }
 
     .ncard1 img {
       width: 23px;
       height: auto;
-      margin-left: 20px;
-      top: 5px;
+      position: relative;
+      left: 110px;
+      top: -20px;
     }
 
     .card2 p {
@@ -252,23 +258,26 @@
     .ncard2 p {
       font-size: 13px;
       padding-left: 20px;
-      right: 23px;
-      top: -20px;
+      position: relative;
+      top: -10px;
+      left: 1px;
       color: #8d8c8c;
     }
 
     .ncard2 p1 {
       font-size: 10px;
-      right: -7px;
-      top: 20px;
+      position: relative;
+      left: 6px;
+      top: -20px;
       color: #8d8c8c;
     }
 
     .ncard2 img {
       width: 30px;
       height: auto;
-      margin-left: 20px;
-      top: 5px;
+      position: relative;
+      left: 110px;
+      top: -20px;
     }
 
     .card3 p {
@@ -300,23 +309,26 @@
     .ncard3 p {
       font-size: 13px;
       padding-left: 20px;
-      right: 23px;
-      top: -20px;
+      position: relative;
+      top: -10px;
+      left: 1px;
       color: #8d8c8c;
     }
 
     .ncard3 p1 {
       font-size: 10px;
-      right: -7px;
-      top: 20px;
+      position: relative;
+      left: 6px;
+      top: -20px;
       color: #8d8c8c;
     }
 
     .ncard3 img {
       width: 40px;
       height: auto;
-      margin-left: 20px;
-      top: 5px;
+      position: relative;
+      left: 110px;
+      top: -20px;
     }
 
     .card4 p {
@@ -344,29 +356,29 @@
       margin-top: 13px;
       margin-left: 50px;
     }
-
-    .ncard4 p {
+    .ncard4 p
+    {
       font-size: 13px;
       padding-left: 20px;
-      right: 23px;
+      position: relative;
+      top: -10px;
+      left: 1px;
+      color: #8d8c8c;
+    }
+    .ncard4 p1 {
+      font-size: 10px;
+      position: relative;
+      left: 6px;
       top: -20px;
       color: #8d8c8c;
     }
-
-    .ncard4 p1 {
-      font-size: 10px;
-      right: -9px;
-      top: 20px;
-      color: #8d8c8c;
-    }
-
     .ncard4 img {
       width: 50px;
       height: auto;
-      margin-left: 20px;
-      top: 5px;
+      position: relative;
+      left: 100px;
+      top: -20px;
     }
-
   }
 
   .center
