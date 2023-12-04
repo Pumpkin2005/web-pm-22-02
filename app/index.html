@@ -68,7 +68,7 @@
 <div class="root-wrapper">
     <div class="sidebar-menu">
         <nav class="navbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="myNavbar">
                 <li class="nav-item active">
                     <img class="img" src="img/home.png">
                     <a class="nav-link" href="#"><p>Dashboard</p></a>
@@ -95,8 +95,11 @@
                 </li>
                 <li class="nav-item">
                     <img class="img" src="img/sup.png" style="margin-top:500px;">
-                    <a class="nav-link" href="#" >Support</a>
+                    <a class="nav-link" href="#">Support</a>
                 </li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </ul>
         </nav>
     </div>
@@ -324,12 +327,12 @@
         </div>
     </div>
 </div>
-
-<!--
-    </div>-->
-<!--
-    -->
-
+<script src="http://localhost:63342/web-pm-22-02/dist/index.html?_ijt=deps9h2od54dpihbnc4j24l075#"></script>
+<script src="js/index.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+<!-- //<script src="scripts/data.json"></script>&ndash;&gt;-->
 <!--<a href="#support" class="button button-default-outline"data-caption-animate="fadeInUp" data-caption-delay="450" onclick="document.getElementById('id01').style.display='block'"style="padding:190px 0px;text-align: center;">Support</a></li>
 
       <div id="id01" class="modal">
@@ -341,34 +344,13 @@
 
 <!--
 
-
-
-
-
-
-
+  <div class="container">
+                    <label for="uname"><b>Write your e-mail</b></label>
+                    <input type="text" placeholder="Enter e-mail" name="uname" required>
+                    <label for="psw"><b>Describe your problem</b></label>
+                    <input type="text" placeholder="Enter problem" name="psw" required>
+                    <button type="submit">Send a letter</button>
+                </div>
                 <div class="container">
-                  <label for="uname"><b>Write your e-mail</b></label>
-                  <input type="text" placeholder="Enter e-mail" name="uname" required>
-
-                  <label for="psw"><b>Describe your problem</b></label>
-                  <input type="text" placeholder="Enter problem" name="psw" required>
-
-                  <button type="submit">Send a letter</button>
-
-                </div>
-
-                <div class="container" style="background-color:none">
-                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-
-                </div>
-
-  </header>
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-  <script src="scripts/jquery.js"></script>
-  <script src="scripts/main.js"></script>
-  <script src="scripts/data.json"></script>-->
-</body>
-
-</html>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>-->
