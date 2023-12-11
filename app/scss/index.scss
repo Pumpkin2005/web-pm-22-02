@@ -87,11 +87,33 @@
         {
           display: none;
         }
-        .active
+        .nav-itemsup
         {
-          background-color: #3d3d3d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          height: 80px;
+          width: 165px;
           position: relative;
+          .nav-linksup
+          {
+            padding: 10px 0px;
+            text-decoration: none;
+            font-size: 10px;
+            color: #c9c9c9;
+            position: relative;
+            display: block;
+            text-align: center;
+            line-height: 10px;
+          }
         }
+        .nav-itemsup img
+        {
+          width: 25px;
+          height: auto;
+        }
+
         .nav-item {
           display: flex;
           align-items: center;
@@ -110,7 +132,6 @@
             text-align: center;
             line-height: 10px;
           }
-
           .img {
             width: 25px;
             height: auto;
@@ -391,14 +412,29 @@
     margin-left: 200px;
     justify-content: center;
     align-items: flex-start;
+   .chart1
+   {
+     height: 1600px;
+     width: 1700px;
+     position: relative;
+     left: 30px;
+     bottom: 80px;
+   }
+    .column1 canvas
+    {
+      position: relative;
+      top: 45px;
+      zoom: 70%;
+
+    }
     .column1 a
     {
       color: #6b6b6b;
       font-size: 10px;
       float: left;
       position: relative;
-      right: 90px;
-      top: 7px;
+      left: 160px;
+      bottom: 190px;
     }
     .column1 a1
     {
@@ -406,8 +442,8 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 80px;
-      top: 7px;
+      left: 170px;
+      bottom: 190px;
     }
     .column1 a2
     {
@@ -415,8 +451,8 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 70px;
-      top: 7px;
+      left: 180px;
+      bottom: 190px;
     }
     .column1 a3
     {
@@ -424,9 +460,8 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 100px;
-      top: 7px;
-      margin-bottom: 170px;
+      left: 150px;
+      bottom: 190px;
     }
     .column1
     {
@@ -434,9 +469,16 @@
       border-radius: 20px;
       background-color: white;
       width: 450px;
-      height: 230px;
+      height: 260px;
       display: flex;
       align-items: flex-start;
+      .canvas{
+        width: 10px;
+        height:1% ;
+        position: relative;
+        top: 15px;
+
+      }
       .item
       {
         display: flex;
@@ -444,19 +486,6 @@
       .i
       {
         display: flex;
-      }
-      .canvas
-      {
-        width: 10px;
-        height: 1%;
-        position: relative;
-        top: 15px;
-      }
-      .column1 canvas
-      {
-        position: relative;
-        top: 45px;
-        zoom: 70%;
       }
       .total p
       {
@@ -470,15 +499,16 @@
       {
         font-size: 10px;
         position: relative;
-        right: 60px;
+        bottom: 135px;
+        left: 250px;
       }
       .total h4
       {
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         position: relative;
-        right: 50px;
-        bottom: 2px;
+        bottom: 137px;
+        left: 260px;
       }
       .total svg
       {
@@ -491,12 +521,15 @@
         font-size: 10px;
         color: black;
         position: relative;
-        top: 2px;
-        right: 40px;
+        bottom: 135px;
+        left: 270px;
       }
       .bs p b
       {
         font-size: 12px;
+        position: relative;
+        left: 300px;
+        bottom: 200px;
         color: black;
       }
     }
@@ -510,19 +543,20 @@
       height: 230px;
       display: flex;
       align-items: flex-start;
-      .column2 canvas
+      .chart
       {
+        height: 160px;
+        width: 400px;
         position: relative;
-        top: 105px;
-        zoom: 75%;
-        left: 300px;
+        left: 60px;
+        top: 40px;
       }
       .brown
       {
         position: relative;
         top: 50px;
         background: linear-gradient(to right, #d1b7a3, #a78d7a);
-        right: 390px;
+        right: 410px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -531,13 +565,13 @@
       {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .pink b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .pink
@@ -545,7 +579,7 @@
         position: relative;
         top: 70px;
         background: linear-gradient(to right, #fb7995, #ff186c);
-        right: 491px;
+        right: 511px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -554,7 +588,7 @@
         position: relative;
         top: 90px;
         background: linear-gradient(to right, #494949, #000000);
-        right: 585px;
+        right: 605px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -562,14 +596,14 @@
       .black b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .purple {
         position: relative;
         top: 110px;
         background: linear-gradient(to right, #cd97c8, #aa62ac);
-        right: 676px;
+        right: 697px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -577,14 +611,14 @@
       .purple b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .blue {
         position: relative;
         top: 130px;
         background: linear-gradient(to right, #9de3fe, #009bfa);
-        right: 777px;
+        right: 799px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -592,14 +626,14 @@
       .blue b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .yellow {
         position: relative;
         top: 150px;
         background: linear-gradient(to right, #ffefa9, #ffc000);
-        right: 871px;
+        right: 892px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -607,14 +641,14 @@
       .yellow b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .green {
         position: relative;
         top: 170px;
         background: linear-gradient(to right, #79fcad, #00ba2e);
-        right: 967px;
+        right: 987px;
         border-radius: 50%;
         height: 12px;
         width: 12px;
@@ -622,7 +656,7 @@
       .green b {
         position: relative;
         font-size: 10px;
-        left: 25px;
+        left: 20px;
         bottom: 9px;
       }
       .veh {
@@ -635,7 +669,7 @@
         color: #6b6b6b;
         position: relative;
         top: 50px;
-        right: 350px;
+        right: 370px;
       }
       .gro {
         font-size: 9px;
@@ -646,7 +680,7 @@
         color: #6b6b6b;
         position: relative;
         top: 70px;
-        right: 451px;
+        right: 471px;
       }
       .clo {
         font-size: 9px;
@@ -657,7 +691,7 @@
         color: #6b6b6b;
         position: relative;
         top: 90px;
-        right: 544px;
+        right: 564px;
       }
       .cir {
         font-size: 9px;
@@ -668,7 +702,7 @@
         color: #6b6b6b;
         position: relative;
         top: 110px;
-        right: 635px;
+        right: 655px;
       }
       .mob {
         font-size: 9px;
@@ -679,7 +713,7 @@
         color: #6b6b6b;
         position: relative;
         top: 130px;
-        right: 736px;
+        right: 756px;
       }
       .hom {
         font-size: 9px;
@@ -690,7 +724,7 @@
         color: #6b6b6b;
         position: relative;
         top: 150px;
-        right: 829px;
+        right: 849px;
       }
       .oth {
         font-size: 9px;
@@ -701,7 +735,7 @@
         color: #6b6b6b;
         position: relative;
         top: 170px;
-        right: 926px;
+        right: 946px;
       }
     }
     .column2 a
@@ -710,7 +744,7 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 745px;
+      right: 790px;
       top: 7px;
     }
     .column2 a1
@@ -719,7 +753,7 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 735px;
+      right: 780px;
       top: 7px;
     }
     .column2 a2
@@ -728,7 +762,7 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 725px;
+      right: 770px;
       top: 7px;
     }
     .column2 a3
@@ -737,7 +771,7 @@
       font-size: 10px;
       float: left;
       position: relative;
-      right: 755px;
+      right: 800px;
       top: 7px;
       margin-bottom: 170px;
     }
@@ -751,24 +785,24 @@
      left: 20px;
     }
     .column2 h4 {
-      font-size: 19px;
+      font-size: 15px;
       color: black;
       position: relative;
       top: 110px;
-      right: 850px;
+      right: 885px;
     }
     .column2 svg {
       position: relative;
       bottom: 12px;
-      left: 23px;
+      left: 20px;
     }
     .column2 h1 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 10px;
+      font-size: 8px;
       color: black;
       position: relative;
-      top: 120px;
-      right: 840px;
+      top: 117px;
+      right: 885px;
     }
   }
 }
@@ -780,7 +814,7 @@
   border-radius: 20px;
   background-color: white;
   width: 450px;
-  height: 500px;
+  height: 530px;
   .coffee b
   {
     right: 150px;
@@ -1289,185 +1323,3 @@
   }
 }
 
-
-/*
-!* .button-default-outline, .button-default-outline:focus {
-	color: #151515;
-	background-color: transparent;
-	border-color: #888888;
-
-} *!
-
-!* .button-default-outline:hover, .button-default-outline:active {
-	color: #ffffff;
-	background-color: #434343;
-	border-color: #ee9f9f;
-    position: none;
-    width: 100%;
-    height: 20px;
-}
-
-.button-default-outline.button-ujarak::before {
-	background: #ee9f9f;
-} *!
-
-
-  !* Set a style for all buttons *!
-
-
-  button:hover {
-    opacity: 0.8;
-  }
-
-  !* Extra scss for the cancel button *!
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #413e3e;
-  }
-
-  !* Center the image and position the close button *!
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-  }
-
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-
-
-
-  span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-
-  !* The Modal (background) *!
-  .modal {
-    display: none; !* Hidden by default *!
-    position: fixed; !* Stay in place *!
-    z-index: 1; !* Sit on top *!
-    left: 0;
-    top: 0;
-    width: 100%; !* Full width *!
-    height: 100%; !* Full height *!
-    overflow: auto; !* Enable scroll if needed *!
-    background-color: rgb(0,0,0); !* Fallback color *!
-    background-color: rgba(0,0,0,0.4); !* Black w/ opacity *!
-    padding-top: 60px;
-  }
-
-  !* Modal Content/Box *!
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; !* 5% from the top, 15% from the bottom and centered *!
-    border: 1px solid #888;
-    width: 80%; !* Could be more or less, depending on screen size *!
-  }
-
-  !* The Close Button (x) *!
-  .close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    font-weight: bold;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  }
-
-  !* Add Zoom Animation *!
-  .animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-  }
-
-  @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
-  }
-
-  @keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
-  }
-
-  !* Change scss for span and cancel button on extra small screens *!
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  }
-
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-ul,
-li {
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-
-
-
-
-
-
-body {
-    overflow: hidden;
-    position: relative;
-    background-color: #f3f3f3;
-    margin: 0;
-    font-family: Arial, sans-serif;
-
-}
-
-
-
-
-
-
-b {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-.hr {
-    position: relative;
-    top: 50px;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.532), rgba(158, 158, 158, 0.75), rgba(0, 0, 0, 0));
-}
-.history p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-
-
-}
-
-@media(max-width: 1200px) {
-    body {
-
-        background-color: none;
-        position: none;
-    }
-
-*/
